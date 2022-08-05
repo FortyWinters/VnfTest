@@ -2,6 +2,9 @@
 VNF时延测试  
 发送HTTP请求的发包器+VNF两端的抓包器  
 
+`apt install python-dpkt`  
+
+
 客户端运行  
 `python pktsend.py`  
 VNF运行  
