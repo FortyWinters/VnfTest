@@ -52,7 +52,7 @@ def get_average(arrDelay):
 		if arrDelay[i][1] == datetime.timedelta(0, 0, 0):
 			lost = lost + 1	
 		allDelay = allDelay + arrDelay[i][1]		
-	print("average delay: ", allDelay/len(arrDelay))
+	print("average delay", allDelay/len(arrDelay))
 	print("lost rate", lost/100)
 			
 
