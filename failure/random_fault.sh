@@ -123,7 +123,7 @@ pl_f(){
 main(){
 	echo lable,rank>f.csv
 	echo timestamp,lable,mem_total,mem_used>t.csv
-	for i in `seq 5`
+	for i in `seq 3`
 	do
 		echo "FAILURE NUMBER: $i"
 		random_f
